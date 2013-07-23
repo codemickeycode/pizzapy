@@ -1,4 +1,4 @@
 pizza
 =====
 
-Script that let's you order pizza from Pizza Hut :D
+Script that let's you order pizza from http://www.pizzahut.com.ph/
