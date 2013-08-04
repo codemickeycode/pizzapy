@@ -7,8 +7,13 @@ Python + Selenium
 
 Setup:
 
-Create Virtualenv and install selenium
+Create Virtualenv and install selenium:
 ```
 $ mkvirtualenv -a <Projects path>/pizza --no-site-packages pizza
 (pizza)$ sudo pip install selenium
+```
+
+Run the script:
+```
+(pizza)$ python main.py
 ```
