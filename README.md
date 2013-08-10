@@ -16,8 +16,8 @@ $ mkvirtualenv -a <Projects path>/pizzapy --no-site-packages pizzapy
 Create a config dir and file which will contain your credentials:
 ```
 (pizzapy)$ mkdir config
-(pizzapy)$ touch __init__.py
 (pizzapy)$ cd config
+(pizzapy)$ touch __init__.py
 (pizzapy)$ touch settings.py
 
 ```
