@@ -22,7 +22,7 @@ Create a config dir and file which will contain your credentials:
 
 ```
 
-In settings.py add this:
+In config/settings.py add this:
 ```
 credentials = {'username': 'some@email.com', 'pwd': 'somepassword'}
 ```
