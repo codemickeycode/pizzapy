@@ -16,6 +16,7 @@ def check_exists_by_id(e_id):
         return False
     return element
 
+uname = settings.credentials['uname']
 pwd = settings.credentials['pwd']
 
 # Go to the login page
@@ -24,7 +25,7 @@ browser.get("http://www.pizzahut.com.ph/2007/order.php#") # Load page
 check_elem_id = check_exists_by_id("frm_email")
 if check_elem_id:
     element = check_elem_id
-    element.send_keys("mcy133412@yahoo.com")
+    element.send_keys(name)
     time.sleep(0.2) # Let the page load
 
 check_elem_id = check_exists_by_id("frm_pass1")
