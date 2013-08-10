@@ -1,3 +1,5 @@
+import config.settings as settings
+#from config.settings import credentials
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
@@ -14,6 +16,8 @@ def check_exists_by_id(e_id):
         return False
     return element
 
+pwd = settings.credentials['pwd']
+
 # Go to the login page
 browser.get("http://www.pizzahut.com.ph/2007/order.php#") # Load page
 
@@ -26,7 +30,9 @@ if check_elem_id:
 check_elem_id = check_exists_by_id("frm_pass1")
 if check_elem_id:
     element = check_elem_id
-    element.send_keys("testing...") #+ Keys.RETURN
+    #element.send_keys(pwd)
+    element.send_keys(pwd + Keys.RETURN)
     time.sleep(0.2) # Let the page load
+
 
 
