@@ -9,11 +9,11 @@ Setup:
 
 Create Virtualenv and install selenium:
 ```
-$ mkvirtualenv -a <Projects path>/pizza --no-site-packages pizza
-(pizza)$ sudo pip install selenium
+$ mkvirtualenv -a <Projects path>/pizzapy --no-site-packages pizzapy
+(pizzapy)$ sudo pip install selenium
 ```
 
 Run the script:
 ```
-(pizza)$ python main.py
+(pizzapy)$ python main.py
 ```
