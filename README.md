@@ -1,7 +1,7 @@
 pizza py
 ========
 
-Script that let's you order pizza from http://www.pizzahut.com.ph/
+Script that lets you order pizza from http://www.pizzahut.com.ph/
 
 Python + Selenium
 
