@@ -1,0 +1,18 @@
+{"products": {
+    "1": {"id": 1, "name": "Super Supreme", "price": 309, "size": "Regular", "category": "Pan Pizza"},
+    "2": {"id": 2, "name": "Super Supreme", "price": 469, "size": "Family", "category": "Pan Pizza"},
+    "3": {"id": 3, "name": "Meatlovers", "price": 309, "size": "Regular", "category": "Pan Pizza"},
+    "4": {"id": 4, "name": "Meatlovers", "price": 469, "size": "Family", "category": "Pan Pizza"},
+
+    "5": {"id": 5, "name": "Supreme", "price": 279, "size": "Regular", "category": "Supreme Line"},
+    "6": {"id": 6, "name": "Supreme", "price": 429, "size": "Family", "category": "Supreme Line"},
+    "7": {"id": 7, "name": "Veggie Lovers Supreme", "price": 279, "size": "Regular", "category": "Supreme Line"},
+    "8": {"id": 8, "name": "Veggie Lovers Supreme", "price": 429, "size": "Family", "category": "Supreme Line"},
+    "9": {"id": 9, "name": "Bacon Supreme", "price": 279, "size": "Regular", "category": "Supreme Line"},
+    "10": {"id": 10, "name": "Bacon Supreme", "price": 429, "size": "Family", "category": "Supreme Line"},
+    "11": {"id": 11, "name": "Hawaiian Supreme", "price": 279, "size": "Regular", "category": "Supreme Line"},
+    "12": {"id": 12, "name": "Hawaiian Supreme", "price": 429, "size": "Family", "category": "Supreme Line"},
+    "13": {"id": 13, "name": "Bacon Cheeseburger Supreme", "price": 279, "size": "Regular","category": "Supreme Line"},
+    "14": {"id": 14, "name": "Bacon Cheeseburger Supreme", "price": 429, "size": "Family", "category": "Supreme Line"}
+}
+}
